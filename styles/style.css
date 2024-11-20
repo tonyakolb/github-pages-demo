@@ -1,0 +1,40 @@
+body {
+    font: 18px sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.main-information {
+    width: 75%;
+}
+
+aside {
+    width: 25%;
+    float: right;
+    color: #29627e;
+    font-style: italic;
+    border-left: 2px solid #000;
+    background-color: rgb(250, 245, 239);
+}
+
+aside a {
+    color: #29627e;
+}
+
+.favourite-films {
+    display: flex;
+    justify-content: space-around;
+}
+
+.favourite-films p {
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
